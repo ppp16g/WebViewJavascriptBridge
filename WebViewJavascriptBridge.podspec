@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "5.0", :osx => "" }
   s.requires_arc = true
   
-  s.ios.source_files         = 'WebViewJavascriptBridge/*.{h,m}'
-  s.ios.private_header_files = 'WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
-  s.osx.source_files         = 'WebViewJavascriptBridge/*.{h,m}'
-  s.osx.private_header_files = 'WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
+  s.ios.source_files         = 'Sources/WebViewJavascriptBridge/*.{h,m}'
+  s.ios.private_header_files = 'Sources/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
+  s.osx.source_files         = 'Sources/WebViewJavascriptBridge/*.{h,m}'
+  s.osx.private_header_files = 'Sources/WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h'
   
   s.frameworks       = 'WebKit'
   s.ios.frameworks   = 'UIKit', 'WebKit'
