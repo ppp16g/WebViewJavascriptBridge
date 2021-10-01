@@ -14,6 +14,8 @@ let package = Package(
     targets: [
         .target(
             name: "WebViewJavascriptBridge",
-            path: "WebViewJavascriptBridge")
+            path: "WebViewJavascriptBridge",
+            publicHeadersPath: "Public"
+        )
     ]
 )
